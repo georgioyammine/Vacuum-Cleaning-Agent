@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launcher.Helper">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Pane prefHeight="561.0" prefWidth="500.0">
+      <children>
+        <Label alignment="CENTER" layoutX="8.0" layoutY="5.0" prefHeight="32.0" prefWidth="489.0" text="Vaccum Cleaner Agent " textAlignment="CENTER" underline="false">
+          <font>
+            <Font name="Calibri Bold" size="24.0" />
+          </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="6.0" layoutY="130.0" prefHeight="24.0" prefWidth="489.0" text=" Anis Ismail" textAlignment="CENTER" />
+        <Label alignment="CENTER" layoutX="7.0" layoutY="109.0" prefHeight="24.0" prefWidth="489.0" text="Georgio Yammine" />
+        <Label alignment="CENTER" layoutX="6.0" layoutY="154.0" prefHeight="24.0" prefWidth="489.0" text="Rami Naffah" textAlignment="CENTER" />
+        <Label alignment="CENTER" layoutX="6.0" layoutY="181.0" prefHeight="32.0" prefWidth="489.0" text="Fully Observable Environment" textAlignment="CENTER">
+          <font>
+            <Font name="Calibri Bold" size="20.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Label alignment="CENTER" font="$x1" layoutX="6.0" layoutY="288.0" prefHeight="22.0" prefWidth="489.0" text="Partially Observable Environment" textAlignment="CENTER" />
+        <Label alignment="CENTER" font="$x1" layoutX="5.0" layoutY="378.0" prefHeight="22.0" prefWidth="489.0" text="Unobservable Environment" textAlignment="CENTER" />
+        <ImageView id="robot.png" fitHeight="79" fitWidth="79.0" layoutX="212.0" layoutY="37.0">
+          <image>
+            <Image url="@../robot.png" />
+          </image>
+        </ImageView>
+            <Button layoutX="52.0" layoutY="223.0" mnemonicParsing="false" onAction="#BFSF" prefHeight="32.0" prefWidth="126.0" text="BFS To Closes Dirt">
+               <tooltip>
+                  <Tooltip text="BFS to Closest Dirt" />
+               </tooltip></Button>
+            <Button layoutX="194.0" layoutY="223.0" mnemonicParsing="false" onAction="#TSPF" prefHeight="32.0" prefWidth="126.0" text="TSP To All Dirts">
+               <tooltip>
+                  <Tooltip text="Solving the tsp on dirts With Simulating Anneiling" />
+               </tooltip>
+            </Button>
+            <Button layoutX="334.0" layoutY="223.0" mnemonicParsing="false" onAction="#SMART" prefHeight="32.0" prefWidth="126.0" text="Smart Combination">
+               <tooltip>
+                  <Tooltip text="A combination between BFS and TSP where the agent decisdes which algorithm to choose" />
+               </tooltip>
+            </Button>
+            <Button layoutX="105.0" layoutY="321.0" mnemonicParsing="false" onAction="#Weight" prefHeight="32.0" prefWidth="126.0" text="Weight Driven ">
+               <tooltip>
+                  <Tooltip text="Decides which Tile to go next based on computed weights, vsibility 4 neighboring tiles. Sleeps for a defined multiple state of delays if all the room is clean." />
+               </tooltip>
+            </Button>
+            <Button layoutX="271.0" layoutY="321.0" mnemonicParsing="false" onAction="#bfsP" prefHeight="32.0" prefWidth="126.0" text="BFS In Visibility">
+               <tooltip>
+                  <Tooltip text="BFS to Closest Dirt or unvisited state with variable visibility, Sleeps for a defined multiple state of delays if all the room is clean." />
+               </tooltip>
+            </Button>
+            <Button layoutX="105.0" layoutY="416.0" mnemonicParsing="false" onAction="#Discover" prefHeight="32.0" prefWidth="126.0" text="Discover The Room">
+               <tooltip>
+                  <Tooltip text="An agent responsible to descover his environment with only knowing its current state" />
+               </tooltip>
+            </Button>
+            <Button layoutX="271.0" layoutY="416.0" mnemonicParsing="false" onAction="#TSPP" prefHeight="32.0" prefWidth="126.0" text="TSP to All Tiles">
+               <tooltip>
+                  <Tooltip text="Using SA TSP to find the shortest path to visit all tiles, Sleeps for a defined multiple state of delays if all the room is clean." />
+               </tooltip>
+            </Button>
+            <Label alignment="CENTER" layoutX="6.0" layoutY="467.0" prefHeight="22.0" prefWidth="489.0" text="Multi Agent Adversarial Search" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" fx:id="x11" />
+               </font>
+            </Label>
+            <Button layoutX="189.0" layoutY="501.0" mnemonicParsing="false" onAction="#adversarial" prefHeight="32.0" prefWidth="126.0" text="Adversarial Agents">
+               <tooltip>
+                  <Tooltip text="Multi agent of good/bad, one which and the other leave dirt. They behave following a variation of BFS." />
+               </tooltip>
+            </Button>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
