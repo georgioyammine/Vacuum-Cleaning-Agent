@@ -19,5 +19,9 @@ Tools Used: **Java 8**, **Processing 3** with **G4P** + **Javafx** for the launc
  6.  and more small variations depending on the environment.
 
 ## Preview
- 
+![launcher](/images/launcher.png)
+![Fully Observable BFS](/images/BFS.PNG)
+![partially Observable weighted BFS](/images/BFSvis.png)
+![Unobservable Discover the room DFS](/images/discover.PNG)
+![Multi agent](/images/multi.png)
 
