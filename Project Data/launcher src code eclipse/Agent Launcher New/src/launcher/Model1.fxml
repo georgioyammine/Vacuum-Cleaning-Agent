@@ -34,7 +34,7 @@
             <Image url="@../robot.png" />
           </image>
         </ImageView>
-            <Button layoutX="52.0" layoutY="223.0" mnemonicParsing="false" onAction="#BFSF" prefHeight="32.0" prefWidth="126.0" text="BFS To Closes Dirt">
+            <Button layoutX="52.0" layoutY="223.0" mnemonicParsing="false" onAction="#BFSF" prefHeight="32.0" prefWidth="126.0" text="BFS To Closest Dirt">
                <tooltip>
                   <Tooltip text="BFS to Closest Dirt" />
                </tooltip></Button>
