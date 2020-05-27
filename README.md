@@ -27,15 +27,16 @@ This project opens the path for further regarding efficient algorithms for path 
 - G4P
 
 ## Installation
+Runnable jars with exe and bat files are available in the runnable folder. 
 
+## Authors and acknowledgment
+This Application is built by **Georgio Yammine**, **Anis Ismail**, and **Rami Naffah**.
 
 ## Usage
-
 ![launcher](/images/launcher.png)
 ![Fully Observable BFS](/images/BFS.PNG)
 ![partially Observable weighted BFS](/images/BFSvis.png)
 ![Unobservable Discover the room DFS](/images/discover.PNG)
 ![Multi agent](/images/multi.png)
 
-## Authors and acknowledgment
-This Application is built by **Georgio Yammine**, **Anis Ismail**, and **Rami Naffah**.
+
