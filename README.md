@@ -25,7 +25,6 @@ This project opens the path for further regarding efficient algorithms for path 
 - Java 8
 - Processing 3
 - G4P
-- Javafx 14
 
 ## Installation
 
