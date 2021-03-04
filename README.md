@@ -21,13 +21,17 @@ We also worked on implementing a **Multi-Agent** Adversarial Vacuum Cleaner Agen
 
 This project opens the path for further regarding efficient algorithms for path finding that can be applied to many real life scenarios not only vaccum cleaning agents, but also for data routing in communication systems, VLSI, scheduling...
 
-## Requirements
+## Tools Used
 - Java 8
 - Processing 3
 - G4P
 
 ## Installation
 Runnable jars with exe and bat files are available in the runnable folder. 
+
+* [Oracle JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) is required for running the app and can be downloaded from [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html). 
+    * Be sure to have the path set to jdk 8. 
+    * This can be checked by calling `java -version`
 
 ## Authors and acknowledgment
 This Application is built by **Georgio Yammine**, **Anis Ismail**, and **Rami Naffah**.
